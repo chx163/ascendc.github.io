@@ -44,6 +44,13 @@ jobs:
         run: |
           set -euo pipefail
 
+          repository_name=${GITHUB_REPOSITORY#*/}
+          if [[ "$repository_name" == "${GITHUB_REPOSITORY_OWNER}.github.io" ]]; then
+            pages_base=/
+          else
+            pages_base="/$repository_name/"
+          fi
+
           if [[ -z "${PR_NUMBER:-}" ]]; then
             base_ref=master
             base_sha=$(git ls-remote "$GITCODE_REPOSITORY" refs/heads/master | awk '{print $1}')
@@ -54,7 +61,7 @@ jobs:
             echo 'mode=master' >> "$GITHUB_OUTPUT"
             echo 'pr_number=' >> "$GITHUB_OUTPUT"
             echo 'source_ref=master' >> "$GITHUB_OUTPUT"
-            echo 'site_base=/' >> "$GITHUB_OUTPUT"
+            echo "site_base=$pages_base" >> "$GITHUB_OUTPUT"
           else
             if [[ ! "$PR_NUMBER" =~ ^[1-9][0-9]*$ ]]; then
               echo "Invalid GitCode PR number: $PR_NUMBER" >&2
@@ -77,7 +84,7 @@ jobs:
             echo 'mode=pr' >> "$GITHUB_OUTPUT"
             echo "pr_number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
             echo "source_ref=PR #$PR_NUMBER" >> "$GITHUB_OUTPUT"
-            echo "site_base=/pr/$PR_NUMBER/" >> "$GITHUB_OUTPUT"
+            echo "site_base=${pages_base}pr/$PR_NUMBER/" >> "$GITHUB_OUTPUT"
           fi
 
           [[ "$base_sha" =~ ^[0-9a-f]{40}$ && "$source_sha" =~ ^[0-9a-f]{40}$ ]]
@@ -193,14 +200,13 @@ jobs:
           if (after !== before) fs.writeFileSync(file, after)
           NODE
 
-          if [[ "$BUILD_MODE" == 'pr' ]]; then
-            node <<'NODE'
+          node <<'NODE'
           const fs = require('node:fs')
 
           function updateFile(file, transform, verify) {
             const before = fs.readFileSync(file, 'utf8')
             const after = transform(before)
-            if (!verify(after)) throw new Error(`Preview path patch did not match ${file}`)
+            if (!verify(after)) throw new Error(`Site path patch did not match ${file}`)
             if (after !== before) fs.writeFileSync(file, after)
           }
 
@@ -256,7 +262,6 @@ jobs:
           }, source => source.includes('ASC_PREVIEW_BASE}search-identifiers.json')
             && source.includes('ASC_PREVIEW_BASE}pagefind-titles/'))
           NODE
-          fi
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
