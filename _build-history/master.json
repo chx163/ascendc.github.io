@@ -1,0 +1,434 @@
+[
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "ec3460ef8eeb453312dcd5c5efaf0dca55885627",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/ec3460ef8eeb453312dcd5c5efaf0dca55885627",
+    "builtAt": "2026-09-05T20:25:32Z",
+    "buildDurationMs": 219878,
+    "stats": {
+      "totalBytes": 285139017,
+      "fileCount": 21487,
+      "directoryCount": 471,
+      "pageCount": 3370,
+      "pageBytes": 103031506,
+      "imageCount": 1299,
+      "imageBytes": 61636677,
+      "imageTypes": {
+        "PNG": {
+          "count": 1299,
+          "bytes": 61636677
+        }
+      },
+      "jsCount": 6824,
+      "jsBytes": 73770994,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6918,
+      "searchBytes": 12314567,
+      "otherCount": 3068,
+      "otherBytes": 34112591,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 19261425
+        },
+        "MD": {
+          "count": 3048,
+          "bytes": 14208410
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-06"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "ec3460ef8eeb453312dcd5c5efaf0dca55885627",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/ec3460ef8eeb453312dcd5c5efaf0dca55885627",
+    "builtAt": "2026-09-05T13:31:46Z",
+    "buildDurationMs": 180105,
+    "stats": {
+      "totalBytes": 285139017,
+      "fileCount": 21487,
+      "directoryCount": 471,
+      "pageCount": 3370,
+      "pageBytes": 103031506,
+      "imageCount": 1299,
+      "imageBytes": 61636677,
+      "imageTypes": {
+        "PNG": {
+          "count": 1299,
+          "bytes": 61636677
+        }
+      },
+      "jsCount": 6824,
+      "jsBytes": 73770994,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6918,
+      "searchBytes": 12314567,
+      "otherCount": 3068,
+      "otherBytes": 34112591,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 19261425
+        },
+        "MD": {
+          "count": 3048,
+          "bytes": 14208410
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-05"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "69e8932e723e077228981554026ee19b14b10fa7",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/69e8932e723e077228981554026ee19b14b10fa7",
+    "builtAt": "2026-09-04T14:28:12Z",
+    "buildDurationMs": 221066,
+    "stats": {
+      "totalBytes": 285139015,
+      "fileCount": 21487,
+      "directoryCount": 471,
+      "pageCount": 3370,
+      "pageBytes": 103031506,
+      "imageCount": 1299,
+      "imageBytes": 61636677,
+      "imageTypes": {
+        "PNG": {
+          "count": 1299,
+          "bytes": 61636677
+        }
+      },
+      "jsCount": 6824,
+      "jsBytes": 73770994,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6918,
+      "searchBytes": 12314565,
+      "otherCount": 3068,
+      "otherBytes": 34112591,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 19261425
+        },
+        "MD": {
+          "count": 3048,
+          "bytes": 14208410
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-04"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "42eeb34ddd40e50323b32db8fcd79c032bb81c9d",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/42eeb34ddd40e50323b32db8fcd79c032bb81c9d",
+    "builtAt": "2026-09-03T14:40:56Z",
+    "buildDurationMs": 221344,
+    "stats": {
+      "totalBytes": 284278416,
+      "fileCount": 21415,
+      "directoryCount": 470,
+      "pageCount": 3361,
+      "pageBytes": 102773611,
+      "imageCount": 1289,
+      "imageBytes": 61495784,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61495784
+        }
+      },
+      "jsCount": 6798,
+      "jsBytes": 73595223,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6900,
+      "searchBytes": 12279738,
+      "otherCount": 3059,
+      "otherBytes": 33861378,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 19110700
+        },
+        "MD": {
+          "count": 3039,
+          "bytes": 14107922
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-03"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "75763e5c7bde5b075a102c5a91b2a69356ae34e1",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/75763e5c7bde5b075a102c5a91b2a69356ae34e1",
+    "builtAt": "2026-09-02T14:36:55Z",
+    "buildDurationMs": 247919,
+    "stats": {
+      "totalBytes": 284640308,
+      "fileCount": 21414,
+      "directoryCount": 470,
+      "pageCount": 3361,
+      "pageBytes": 103002619,
+      "imageCount": 1289,
+      "imageBytes": 61495784,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61495784
+        }
+      },
+      "jsCount": 6798,
+      "jsBytes": 73861070,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6899,
+      "searchBytes": 12261072,
+      "otherCount": 3059,
+      "otherBytes": 33747081,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 19042418
+        },
+        "MD": {
+          "count": 3039,
+          "bytes": 14061907
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-02"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "2951a900b5d1975728ac7f0f437c6d752ed9447e",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/2951a900b5d1975728ac7f0f437c6d752ed9447e",
+    "builtAt": "2026-09-01T15:00:57Z",
+    "buildDurationMs": 230357,
+    "stats": {
+      "totalBytes": 284299121,
+      "fileCount": 21481,
+      "directoryCount": 469,
+      "pageCount": 3372,
+      "pageBytes": 102928653,
+      "imageCount": 1289,
+      "imageBytes": 61515974,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61515974
+        }
+      },
+      "jsCount": 6820,
+      "jsBytes": 73660404,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6921,
+      "searchBytes": 12236725,
+      "otherCount": 3071,
+      "otherBytes": 33684683,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 18999257
+        },
+        "MD": {
+          "count": 3051,
+          "bytes": 14042670
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-09-01"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "cc9781de1ac0dcc19c97c3cfc0a0455f3357c22a",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/cc9781de1ac0dcc19c97c3cfc0a0455f3357c22a",
+    "builtAt": "2026-08-31T11:38:38Z",
+    "buildDurationMs": 209792,
+    "stats": {
+      "totalBytes": 281180175,
+      "fileCount": 21186,
+      "directoryCount": 458,
+      "pageCount": 3323,
+      "pageBytes": 101406654,
+      "imageCount": 1289,
+      "imageBytes": 61731301,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61731301
+        }
+      },
+      "jsCount": 6721,
+      "jsBytes": 72647160,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6823,
+      "searchBytes": 12037016,
+      "otherCount": 3022,
+      "otherBytes": 33085362,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 18657625
+        },
+        "MD": {
+          "count": 3002,
+          "bytes": 13784981
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-08-31"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "28efee41038ead0a7d1126f0bfc83f8babb503e5",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/28efee41038ead0a7d1126f0bfc83f8babb503e5",
+    "builtAt": "2026-08-30T14:56:41Z",
+    "buildDurationMs": 173678,
+    "stats": {
+      "totalBytes": 281011143,
+      "fileCount": 21180,
+      "directoryCount": 458,
+      "pageCount": 3322,
+      "pageBytes": 101383852,
+      "imageCount": 1289,
+      "imageBytes": 61731301,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61731301
+        }
+      },
+      "jsCount": 6719,
+      "jsBytes": 72634425,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6821,
+      "searchBytes": 12032465,
+      "otherCount": 3021,
+      "otherBytes": 32956418,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 18591774
+        },
+        "MD": {
+          "count": 3001,
+          "bytes": 13721888
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-08-30"
+  },
+  {
+    "schemaVersion": 2,
+    "mode": "master",
+    "prNumber": null,
+    "ref": "master",
+    "sha": "28efee41038ead0a7d1126f0bfc83f8babb503e5",
+    "commitUrl": "https://gitcode.com/cann/asc-devkit/commit/28efee41038ead0a7d1126f0bfc83f8babb503e5",
+    "builtAt": "2026-08-29T15:09:15Z",
+    "buildDurationMs": 160034,
+    "stats": {
+      "totalBytes": 281011148,
+      "fileCount": 21180,
+      "directoryCount": 458,
+      "pageCount": 3322,
+      "pageBytes": 101383852,
+      "imageCount": 1289,
+      "imageBytes": 61731301,
+      "imageTypes": {
+        "PNG": {
+          "count": 1289,
+          "bytes": 61731301
+        }
+      },
+      "jsCount": 6719,
+      "jsBytes": 72634425,
+      "cssCount": 8,
+      "cssBytes": 272682,
+      "searchCount": 6821,
+      "searchBytes": 12032470,
+      "otherCount": 3021,
+      "otherBytes": 32956418,
+      "otherTypes": {
+        "JSON": {
+          "count": 6,
+          "bytes": 18591774
+        },
+        "MD": {
+          "count": 3001,
+          "bytes": 13721888
+        },
+        "WOFF2": {
+          "count": 14,
+          "bytes": 642756
+        }
+      }
+    },
+    "historyDate": "2026-08-29"
+  }
+]
