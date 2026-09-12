@@ -1,0 +1,1 @@
+const s="/ascendc.github.io/assets/asc_ndim_copy_gm2ub_2d_padding_nearest.jlkqPhl1.png",_="/ascendc.github.io/assets/asc_ndim_copy_gm2ub_2d_transpose.BOGOhxy7.png",c="/ascendc.github.io/assets/asc_ndim_copy_gm2ub_2d_slice.oIQzn2Qt.png",a="/ascendc.github.io/assets/asc_ndim_copy_gm2ub_2d_broadcast.BMhZGKZJ.png";export{s as _,_ as a,c as b,a as c};
