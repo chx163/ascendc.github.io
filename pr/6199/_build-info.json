@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "mode": "pr",
+  "prNumber": "6199",
+  "ref": "PR #6199",
+  "sha": "f5d6d4ff5077ff442723e3a159010457403eb51e",
+  "commitUrl": "https://gitcode.com/gcw_atM8lhjZ/asc-devkit_static_pages/commit/f5d6d4ff5077ff442723e3a159010457403eb51e",
+  "builtAt": "2026-09-18T08:14:57Z",
+  "buildDurationMs": 268586,
+  "stats": {
+    "totalBytes": 313002800,
+    "fileCount": 22954,
+    "directoryCount": 482,
+    "pageCount": 3602,
+    "pageBytes": 113882164,
+    "imageCount": 1336,
+    "imageBytes": 67087303,
+    "imageTypes": {
+      "PNG": {
+        "count": 1336,
+        "bytes": 67087303
+      }
+    },
+    "jsCount": 7314,
+    "jsBytes": 80852193,
+    "cssCount": 8,
+    "cssBytes": 289157,
+    "searchCount": 7396,
+    "searchBytes": 13351293,
+    "otherCount": 3298,
+    "otherBytes": 37540690,
+    "otherTypes": {
+      "JSON": {
+        "count": 6,
+        "bytes": 21156666
+      },
+      "MD": {
+        "count": 3278,
+        "bytes": 15741268
+      },
+      "WOFF2": {
+        "count": 14,
+        "bytes": 642756
+      }
+    }
+  }
+}

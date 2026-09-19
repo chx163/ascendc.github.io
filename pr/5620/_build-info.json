@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "mode": "pr",
+  "prNumber": "5620",
+  "ref": "PR #5620",
+  "sha": "77df971ff5b317ef99e75b03d84e81267ff3b2d6",
+  "commitUrl": "https://gitcode.com/qwerwjy/asc-devkit_xitongbianliang/commit/77df971ff5b317ef99e75b03d84e81267ff3b2d6",
+  "builtAt": "2026-09-09T01:44:23Z",
+  "buildDurationMs": 229169,
+  "stats": {
+    "totalBytes": 292792679,
+    "fileCount": 21748,
+    "directoryCount": 475,
+    "pageCount": 3410,
+    "pageBytes": 106787695,
+    "imageCount": 1310,
+    "imageBytes": 62347346,
+    "imageTypes": {
+      "PNG": {
+        "count": 1310,
+        "bytes": 62347346
+      }
+    },
+    "jsCount": 6907,
+    "jsBytes": 75685813,
+    "cssCount": 8,
+    "cssBytes": 272189,
+    "searchCount": 7005,
+    "searchBytes": 12601582,
+    "otherCount": 3108,
+    "otherBytes": 35098054,
+    "otherTypes": {
+      "JSON": {
+        "count": 6,
+        "bytes": 19811541
+      },
+      "MD": {
+        "count": 3088,
+        "bytes": 14643757
+      },
+      "WOFF2": {
+        "count": 14,
+        "bytes": 642756
+      }
+    }
+  }
+}
