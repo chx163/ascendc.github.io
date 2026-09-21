@@ -231,10 +231,52 @@ jobs:
             'import(/* @vite-ignore */ `${import.meta.env.BASE_URL}pagefind/pagefind.js`)',
           ), source => source.includes('BASE_URL}pagefind/pagefind.js'))
 
-          updateFile('docs/.vitepress/theme/ApiDownload.vue', source => source.replace(
-            "fetch('/api-source/bundle.json')",
-            'fetch(`${import.meta.env.BASE_URL}api-source/bundle.json`)',
-          ), source => source.includes('BASE_URL}api-source/bundle.json'))
+          updateFile('docs/.vitepress/theme/FilterToggle.vue', (source) => {
+            let updated = source
+            if (!updated.includes('const siteBase = import.meta.env.BASE_URL')) {
+              updated = updated.replace(
+                'const isApiPage = ref(false)',
+                [
+                  'const isApiPage = ref(false)',
+                  'const siteBase = import.meta.env.BASE_URL',
+                  'const isApiPath = path => path.startsWith(`${siteBase}api/`)',
+                  'const stripSiteBase = path => path.startsWith(siteBase)',
+                  '  ? `/${path.slice(siteBase.length)}`',
+                  '  : path',
+                ].join('\n'),
+              )
+            }
+            updated = updated.replace(
+              '    route.path,',
+              '    stripSiteBase(route.path),',
+            )
+            updated = updated.replaceAll(
+              "route.path.startsWith('/api/')",
+              'isApiPath(route.path)',
+            )
+            updated = updated.replaceAll(
+              "path.startsWith('/api/')",
+              'isApiPath(path)',
+            )
+            return updated
+          }, source => source.includes('const siteBase = import.meta.env.BASE_URL')
+            && source.includes('stripSiteBase(route.path)')
+            && source.includes('isApiPath(route.path)')
+            && source.includes('isApiPath(path)')
+            && !source.includes("startsWith('/api/')"))
+
+          updateFile('docs/.vitepress/theme/ApiDownload.vue', (source) => {
+            let updated = source.replace(
+              "fetch('/api-source/bundle.json')",
+              'fetch(`${import.meta.env.BASE_URL}api-source/bundle.json`)',
+            )
+            updated = updated.replace(
+              "route.path.startsWith('/api/')",
+              'route.path.startsWith(`${import.meta.env.BASE_URL}api/`)',
+            )
+            return updated
+          }, source => source.includes('BASE_URL}api-source/bundle.json')
+            && source.includes('BASE_URL}api/`'))
 
           updateFile('docs/.vitepress/theme/DocumentBuildInfo.vue', source => source.replace(
             'https://gitcode.com/cann/asc-devkit/commit/',
