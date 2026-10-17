@@ -1,0 +1,1 @@
+const a="/ascendc.github.io/pr/5783/assets/atomic_operation_pipelined_data_movement_effect.DV8Ej5ku.png",t="/ascendc.github.io/pr/5783/assets/scalar_atomic_operation_diagram.DxpwtocB.png";export{a as _,t as a};
