@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "mode": "pr",
+  "prNumber": "6120",
+  "ref": "PR #6120",
+  "sha": "0a62485a53a3bb984e964d3dff45ea8116cf8321",
+  "commitUrl": "https://gitcode.com/munanhw/asc-devkit/commit/0a62485a53a3bb984e964d3dff45ea8116cf8321",
+  "builtAt": "2026-09-17T04:51:28Z",
+  "buildDurationMs": 253806,
+  "stats": {
+    "totalBytes": 312196086,
+    "fileCount": 22947,
+    "directoryCount": 482,
+    "pageCount": 3601,
+    "pageBytes": 113680986,
+    "imageCount": 1335,
+    "imageBytes": 66666423,
+    "imageTypes": {
+      "PNG": {
+        "count": 1335,
+        "bytes": 66666423
+      }
+    },
+    "jsCount": 7311,
+    "jsBytes": 80721268,
+    "cssCount": 8,
+    "cssBytes": 289008,
+    "searchCount": 7394,
+    "searchBytes": 13329013,
+    "otherCount": 3298,
+    "otherBytes": 37509388,
+    "otherTypes": {
+      "JSON": {
+        "count": 6,
+        "bytes": 21136299
+      },
+      "MD": {
+        "count": 3278,
+        "bytes": 15730333
+      },
+      "WOFF2": {
+        "count": 14,
+        "bytes": 642756
+      }
+    }
+  }
+}
